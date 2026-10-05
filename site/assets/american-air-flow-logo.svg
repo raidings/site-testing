@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">American Air Flow Logo</title>
+  <desc id="desc">Stylized letter A with airflow bands</desc>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ff7c8" />
+      <stop offset="100%" stop-color="#33c0f0" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="20" fill="#041128" />
+  <path d="M60 18L24 96h18.4l8-18.4h19.2l8 18.4H96L60 18zm-3.4 42.4L64 72H52l4.6-11.6z" fill="url(#grad)" />
+  <path d="M32 90c18 8 38 8 56 0" stroke="#1dade4" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.9" />
+  <path d="M36 78c16 6 32 6 48 0" stroke="#6ff7c8" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7" />
+</svg>
