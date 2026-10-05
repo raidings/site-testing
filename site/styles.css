@@ -27,7 +27,7 @@ html {
 
 body {
   min-height: 100vh;
-  background: linear-gradient(180deg, #ffffff 0%, #f4f7ff 40%, #0b1f3a 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #f7f9ff 55%, #112247 100%);
   color: var(--navy);
 }
 
