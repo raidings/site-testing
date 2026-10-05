@@ -325,6 +325,7 @@ body {
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--red);
+  font-family: 'Inter', 'Segoe UI', sans-serif;
 }
 
 .contact-card {
