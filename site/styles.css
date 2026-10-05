@@ -27,7 +27,7 @@ html {
 
 body {
   min-height: 100vh;
-  background: linear-gradient(140deg, #020b1b 0%, #091a36 45%, #ffffff 100%);
+  background: linear-gradient(200deg, #ffffff 5%, #f6f8ff 30%, #0d1e36 100%);
   color: var(--navy);
 }
 
@@ -135,7 +135,7 @@ body {
   gap: 36px;
   align-items: center;
   background: #ffffff;
-  border-radius: 40px;
+  border-radius: 32px;
   padding: clamp(36px, 5vw, 64px);
   border: 1px solid rgba(198, 40, 46, 0.18);
   box-shadow: 0 45px 70px rgba(12, 26, 46, 0.16);
@@ -322,14 +322,9 @@ body {
 }
 
 .process-step {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  border: 2px solid rgba(198, 40, 46, 0.3);
-  color: var(--red);
-  display: grid;
-  place-items: center;
+  font-size: 1.2rem;
   font-weight: 700;
+  color: var(--red);
 }
 
 .contact-card {
