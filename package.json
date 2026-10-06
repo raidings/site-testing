@@ -1,0 +1,21 @@
+{
+  "name": "lms-plugin-terminal",
+  "version": "1.0.0",
+  "description": "Terminal plugin for LM Studio. Fast-path tools to execute shell commands and run scripts (Python, Node.js, Bun, Deno) across macOS, Linux, and Windows.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && lms dev",
+    "push": "lms push"
+  },
+  "author": "khtsly",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@lmstudio/sdk": "^1.5.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "typescript": "^5.4.5"
+  }
+}
